@@ -1,36 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ai (愛), the AI Anime Recommender
+## Introduction
+This is Ai, an under development AI driven (Google Gemini or MyAnimeList) anime recommender that picks anime you'd likely enjoy if you already like one title. The user can choose whether to use an LLM (Google Gemini first, GPT 4.0 forthcoming) or MyAnimeList's built in recommender. Users will also be able to mark favorite titles and queries and save them to their accounts. There's even an "omakase!" (お任せ) option that picks random titles, kind of like the "I'm feeling lucky" button on Google.
 
-## Getting Started
+### Platforms and frameworks used
+The front end is written in Next.js with Tailwind CSS. Anime thumbnails and title information are drawn from the [Anilist GraphQL public API](https://docs.anilist.co/). 
 
-First, run the development server:
+### Proposed UI
+Check out [the Figma file here](https://www.figma.com/design/OTpVhsgx6ERbhXzSNDd8ng/AI%2C-the-anime-recommender?node-id=0-1&t=kmEhy5Ui6dhjb69r-1), which will have the latest UI ideas as the app grows. Here's a screenshot of the opening page and the results page, inspired by Google's layout:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
