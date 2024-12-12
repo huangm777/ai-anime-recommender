@@ -8,3 +8,6 @@ The front end is written in Next.js with Tailwind CSS. Anime thumbnails and titl
 ### Proposed UI
 Check out [the Figma file here](https://www.figma.com/design/OTpVhsgx6ERbhXzSNDd8ng/AI%2C-the-anime-recommender?node-id=0-1&t=kmEhy5Ui6dhjb69r-1), which will have the latest UI ideas as the app grows. Here's a screenshot of the opening page and the results page, inspired by Google's layout:
 
+![image](public/ai-front-page.png)
+
+![image](public/ai-result-page.png)
